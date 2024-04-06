@@ -3,20 +3,13 @@
 }
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-/* Additional custom styles */
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-/* .ii{    margin-top: -90px !important;
-  margin-right: -230px !important;
-  color: yellow; */
-  /* width:16px;
-   height:16px; */
- 
-  
-/* } */
+
 .carousel-indicators {
   display: none !important;
   position: absolute;
@@ -41,15 +34,7 @@
   background-size: 100% 100%;
 }
 
-/* @media screen and (min-width: 480px) {
-  /* .ii{    margin-top: -90px !important;
-    margin-right: -1048px !important;
-    color: yellow;
-    /* width:30px; height:30px;
-    */
-    
-  /* } */ */
-/* } */ */
+
 
 .carousel-control-next, .carousel-control-prev {
   position: absolute;
@@ -95,16 +80,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: -85% !important; */
+ 
   padding: 0;
-  /* color: #fff; */
+ 
   text-align: center;
   background: 0 0;
   border: 0;
   opacity: .5;
   transition: opacity .15s ease;
   color: orangered;
-  /* border: solid yellow; */
+ 
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
   display: inline-block;
@@ -129,7 +114,7 @@
   background-size: 100% 100%;
   display:inline;
   width: 50% !important;
-  /* padding: 200px; */
+  
 }
 .tt{
     display: flex;
@@ -139,7 +124,7 @@
     border: 1px solid #ccc;
     margin-bottom: 20px;
     text-align: center;
-    line-height: 200px; /* Vertically center content */
+    line-height: 200px; 
  
 }
 .graph{
@@ -152,10 +137,10 @@
 
 .lll{
   background-image: url('./components/Capture33.PNG');
-  /* height: 10vh !important; */
+  
   background-repeat: no-repeat;
   background-size: 50% 50%;
-  /* display:inline-block; */
+  
 }
 .tabicon{
   
@@ -202,7 +187,7 @@
   width: 179%;
   padding: 0;
   color: #fff;
-  /* text-align: center; */
+
   background: 0 0;
   border: 0;
   opacity: .5;
@@ -259,25 +244,25 @@
 
 .ccc{
   display: grid;
-  /* border:2px solid red; */
+  
   height: 100vh;
    grid-template-areas: "s s u h" "i m m h" "i a a a";
 }
 .bbb{
   border:2px solid white;
-  /* padding: 12px; */
-  /* height: 100vh;
-  width: 100%; */
+ 
+  width: 100%; 
 }
+
 #bbb1{
-  /* background-color: #112C41; */
+  
   background-image: url('./components/Rectangle\ 20.png');
   background-repeat: no-repeat;
-  /* background-size: 50% 50%; */
+
   grid-area: s;
 }
 #bbb3 {
-  /* background-color: red; */
+  
   background-image: url('./components/Rectangle\ 21.png');
   background-repeat: no-repeat;
   grid-area: u;
@@ -286,13 +271,12 @@
   background-image: url('./components/Rectangle\ 22.png');
   background-repeat: no-repeat;
   grid-area: h;
-  /* margin-top: 500px; */
+  
 }
 #bbb5 {
   background-image: url('./components/Rectangle\ 23.png');
   background-repeat: no-repeat;
-  /* height: 10000px; */
-  /* margin-top: -20px; */
+  
   grid-area: i;
 }
 #bbb6 {
@@ -305,25 +289,25 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
-  /* background-size: 50% 50%; */
+
   grid-area: s;
   grid-area: m;
 }
 
 .cccc{
   display: grid;
-  /* border:2px solid red; */
+
   height: 100vh;
    grid-template-areas: "n n k k " "f f f o" ;
    margin-bottom: 60px;
 }
 #bbb7 {
   background-color: #112C41;
-  /* background-image: url('./components/Capturett.PNG'); */
+ 
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
-  /* background-size: 50% 50%; */
+ 
   grid-area: n;
   grid-area: n;
 }
@@ -333,7 +317,7 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
-  /* background-size: 50% 50%; */
+ 
   grid-area: k;
   grid-area: k;
 }
@@ -343,11 +327,11 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 20px;
-  /* background-size: 50% 50%; */
+
   grid-area: f;
   grid-area: f;
   grid-area: f;
-  /* grid-area: ; */
+
 }
 
 #bbb10 {
@@ -361,11 +345,7 @@
 }
 #bbb22 {
   background-color: #112C41;
-  ;
-  /* background-image: url('./components/Rectangle\ 31.png');
-  background-repeat: no-repeat;
-  background-position: center; */
-  /* padding: 20px; */
+  
   grid-area: n;
   grid-area: n;
   
@@ -373,11 +353,7 @@
 #bbb33 {
   background-color:  #112C41;
   position: relative;
-  /* background-color: #61dafb;
-  background-image: url('./components/Rectangle\ 31.png');
-  background-repeat: no-repeat;
-  background-position: center; */
-  /* padding: 20px; */
+
   grid-area: k;
   grid-area: k;
   
