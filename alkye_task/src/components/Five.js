@@ -1,23 +1,48 @@
 import React from 'react';
-import MobileNavigation from './MobileNavigation';
-// import '../App.css'
-import textsideimg from './Capture33.PNG'
-import icon1 from './Group 2.png';
-import icon2 from './Group 1.png';
-import icon3 from './Vector5.png';
-import porfile from './Rectangle 19.png'
+import porfile from './Group 8.png'
 const Five = () => {
     return (
         <>
-            
-            <div className='cccc'>
-                <div id='bbb33'>  <img src={porfile} className='porfile'/> </div>
-                <div id='bbb22'></div>
-                
-                
-            </div>
-        </>
-    );
+
+            <div className='ccccc'>
+                <div id='bbb33'> 
+                <div style={{  padding: '40%' }}>
+                    {/* Outer div */}
+                    <div className='Inner_div'>
+                        {/* Inner div aligned at center */}
+                        <div className='center_img'>
+                           
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+
+
+
+                    <div id='bbb22'>
+                        
+                            {/* Inner div aligned at center */}
+                            <div style={{ width: '600px', color:'white'  }}>
+                                <div className='coma'></div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales turpis et lacinia fermentum. Curabitur vestibulum at arcu sed blandit. In consequat euismod purus nec imperdiet.
+
+Title 
+Name
+
+<br></br>
+<br></br>
+<p><img src={porfile} style={{display:'inline', marginRight:'20px'}}/><strong>Read my story</strong></p>
+                            </div>
+                        
+                    
+                    
+
+                </div>
+
+                </div>
+                </>
+                );
 };
 
-export default Five;
+                export default Five;

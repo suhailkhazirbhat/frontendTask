@@ -8,6 +8,9 @@ import Second from './components/Second';
 import Third from './components/Third';
 import Four from './components/Four';
 import Five from './components/Five';
+import Six from './components/Six';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
        <Third/>
        <Four/>
        <Five/>
+       <Six/>
+       <Footer/>
        
         
      
