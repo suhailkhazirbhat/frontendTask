@@ -9,7 +9,7 @@ function MobileNavigation() {
   };
 
   return (
-    <Navbar bg="light" expand="lg" style={{border:'solid white 2px',postion:'absolute'}}>
+    <Navbar bg="light" expand="lg" style={{borderBottom:'solid white 2px',postion:'absolute'}}>
       {/* <Navbar.Brand href="#home"><img src={logo} style={{width:"20px",height:'20px', position:'sticky', left:'40'}}/></Navbar.Brand> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle} />
       <Navbar.Collapse id="basic-navbar-nav" className={`${expanded ? 'show' : ''}`}>
