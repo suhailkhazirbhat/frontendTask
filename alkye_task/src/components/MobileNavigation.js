@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import logo from './Logo 2.png'
+import logo from './assests/Logo 2.png'
 function MobileNavigation() {
   const [expanded, setExpanded] = useState(false);
 

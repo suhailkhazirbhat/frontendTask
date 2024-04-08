@@ -1,6 +1,6 @@
 import React from 'react';
-import ring from './Rectangle 649.png'
-import arow from './Vector.png'
+import ring from './assests/Rectangle 649.png'
+import arow from './assests/Vector.png'
 import './../App.css'
 const Tabs = () => {
   return (

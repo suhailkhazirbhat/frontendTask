@@ -1,5 +1,5 @@
 import React from 'react';
-import porfile from './Group 8.png'
+import porfile from './assests/Group 8.png'
 const Footer = () => {
     return (
         <>

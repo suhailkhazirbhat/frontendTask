@@ -1,10 +1,10 @@
 import React from 'react';
 import MobileNavigation from './MobileNavigation';
 // import '../App.css'
-import textsideimg from './Capture33.PNG'
-import icon1 from './Group 2.png';
-import icon2 from './Group 1.png';
-import icon3 from './Vector5.png';
+import textsideimg from './assests/Capture33.PNG'
+import icon1 from './assests/Group 2.png';
+import icon2 from './assests/Group 1.png';
+import icon3 from './assests/Vector5.png';
 const Four = () => {
     return (
         <>
