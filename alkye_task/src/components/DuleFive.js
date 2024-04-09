@@ -3,7 +3,7 @@ import porfile from './assests/Group 8.png'
 const DuleFive = () => {
     return (
         <>
-            <div>
+            <div className='fifth-section'>
 
                 <div style={{
                     backgroundColor: '#112C41', display: 'flex',

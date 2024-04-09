@@ -24,9 +24,9 @@ function MyCarousel() {
       </Carousel.Item>
       <Carousel.Item>
       <div className='task'>
-  <p>Home / Why work with us</p>
-        <h1>Headline #1</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+  <p style={{fontFamily:'Inter'}}>Home / Why work with us</p>
+        <h1 style={{fontFamily:'Oswald'}}>Headline #1</h1>
+      <p style={{fontFamily:'Inter'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
         <img
           className="d-block w-100"
           src="https://via.placeholder.com/800x400"

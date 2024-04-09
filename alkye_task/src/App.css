@@ -154,12 +154,15 @@
     height: 55px;
 }
 .first-section{ background-color: red }
+.third-section{
+  background-color: #112C41
+}
 
 @media only screen and (max-width: 1000px) {
-  /* .first-section{ background-color: red;width: 179vw; } */
+
 
   .maindivv{
-    /* margin-left: 61px; */
+    
     width: 100% !important;
   }
   .firsttabcontainer{
@@ -175,7 +178,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 179%; */
+   
     padding: 0;
     color: #fff;
     background: 0 0;
@@ -192,7 +195,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: 179%; */
+  
   padding: 0;
   color: #fff;
   background: 0 0;
@@ -211,7 +214,7 @@
     font-size: 14px !important;
     color: white;
     width: 100%;
-    /* animation: scrollText 20s linear infinite; */
+  
 }
 
 
@@ -244,13 +247,14 @@
   h3{
     font-size:6px
   }
-  .topsidetext{
-    /* display: block; */
+
+  
+  .second-section{
+  
     font-size:8px !important
   }
   .toptabcont {
     display: inline-block !important;
-    /* width: 33.33% !important; */
     background: #112C41 !important;
     color: #FFFFFF !important;
     margin-top: 0px;
@@ -268,7 +272,7 @@
 
 }
 
-.topsidetext{background-color: white; display: flex;flex-wrap: nowrap;width:100% ;}
+.second-section{background-color: white; display: flex;flex-wrap: nowrap;width:100% ;}
 
 
 
@@ -297,7 +301,6 @@
 }
 
 .graph {
-  /* background-color: #112c41; */
   background-image: url('./components/assests/Group\ 1593.png');
   height: 25vh !important;
   background-repeat: no-repeat;
@@ -459,6 +462,8 @@
   grid-area: m;
 }
 
+
+
 .cccc {
   display: grid;
 
@@ -476,23 +481,21 @@
 }
 
 #bbb7 {
-  background-color: #112C41;
+
 
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
 
+  width: 437px;
   grid-area: n;
   grid-area: n;
 }
 
 #bbb8 {
-  background-color: #e04c07;
-  background-image: url('./components/assests/Rectangle\ 29.png');
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
 
+ width: 9;
   grid-area: k;
   grid-area: k;
 }
@@ -502,8 +505,8 @@
   background-image: url('./components/assests/Rectangle\ 30.png');
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
-
+  padding: 173px;
+  height: 34vh;
   grid-area: f;
   grid-area: f;
   grid-area: f;
@@ -511,11 +514,10 @@
 }
 
 #bbb10 {
-  background-color: #61dafb;
+
   background-image: url('./components/assests/Rectangle\ 31.png');
   background-repeat: no-repeat;
   background-position: center;
-  padding: 20px;
   grid-area: o;
 
 }
@@ -570,14 +572,20 @@
 
   background-repeat: no-repeat;
 }
-
-.containersix {
+.innerprofile{
+  margin-top: 39%;
+    margin-left: 60%;
+}
+.profile1{
+  display: inline;
+  width: 35%;
+  padding-top: 0px;
+}
+.six-section {
   display: grid;
 
   grid-template-areas: "w w " " l l";
-  /* margin-bottom: 10px; */
-  /* gap: 20px 30px; */
-  /* padding: 1%; */
+
 
 }
 

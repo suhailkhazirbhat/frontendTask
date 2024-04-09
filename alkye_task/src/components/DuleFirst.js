@@ -17,7 +17,7 @@ const DuleFirst = () => {
                         <div className='toptabcont'>
                         <div style={{ padding: '12px', display: 'inline-block' }}>
                             <div style={{color: '#6B6B6B'}}>02</div>
-                            <p>We believe in diversity & inclusion</p>
+                            <p style={{fontFamily:'Inter'}}>We believe in diversity & inclusion</p>
 
                         </div>
                         <div className='tabiconn' > <div style={{ display: 'inline-block' }}><img src={ring} /> </div><div style={{ display: 'inline-block', marginLeft: '-28px' }}><img src={arow} /></div>
@@ -26,7 +26,7 @@ const DuleFirst = () => {
                     <div className='firsttab' >  <div className='toptabcont'>
                         <div style={{ padding: '12px', display: 'inline-block' }}>
                             <div style={{color: '#6B6B6B'}}>02</div>
-                            <p>We believe in diversity & inclusion</p>
+                            <p style={{fontFamily:'Inter'}}>We believe in diversity & inclusion</p>
 
                         </div>
                         <div className='tabiconn' > <div style={{ display: 'inline-block' }}><img src={ring} /> </div><div style={{ display: 'inline-block', marginLeft: '-28px' }}><img src={arow} /></div>
@@ -35,7 +35,7 @@ const DuleFirst = () => {
                     <div className='firsttab' >  <div className='toptabcont'>
                         <div style={{ padding: '12px', display: 'inline-block' }}>
                             <div style={{color: '#6B6B6B'}}>02</div>
-                            <p>We believe in diversity & inclusion</p>
+                            <p style={{fontFamily:'Inter'}}>We believe in diversity & inclusion</p>
 
                         </div>
                         <div className='tabiconn' > <div style={{ display: 'inline-block' }}><img src={ring} /> </div><div style={{ display: 'inline-block', marginLeft: '-28px' }}><img src={arow} /></div>
